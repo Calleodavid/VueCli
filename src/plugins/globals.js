@@ -5,6 +5,10 @@ import titlePage from '../components/title-page.vue'
 import tableContact from '../components/table-contact.vue'
 import calculator from '../components/calculator.vue'
 
+import VueTheMask from 'vue-the-mask'
+Vue.use(VueTheMask)
+
+
 Vue.component('slider', slider);
 Vue.component('loading', loading);
 Vue.component('titlePage', titlePage);
