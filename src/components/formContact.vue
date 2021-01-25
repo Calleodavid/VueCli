@@ -11,7 +11,6 @@
     <b-field label="Contato">
       <b-input
         v-model="user.contact"
-        maxlength="30"
         v-mask="['(##) ####-####', '(##) #####-####']"
       ></b-input>
     </b-field>
